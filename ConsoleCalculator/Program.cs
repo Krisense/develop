@@ -29,15 +29,21 @@ namespace ConsoleCalculator
                     result = num1 * num2;
                     break;
                 case "/":
-    if (num2 != 0)
-    {
-        result = num1 / num2;
-    }
-    else
-    {
-        Console.WriteLine("Error: Division by zero");
-    }
-    break;
+ 
+    		if (num2 != 0)
+    		{
+        		result = num1 / num2;
+    		}
+    		else
+    		{
+        		Console.WriteLine("Error: Division by zero");
+    		}
+    		break;
+
+		case "square":
+    			result = num1 * num1;
+    			break;
+ 
                 default:
                     Console.WriteLine("Invalid operation");
                     break;
