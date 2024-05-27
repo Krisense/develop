@@ -31,6 +31,9 @@ namespace ConsoleCalculator
                 case "/":
                     result = num1 / num2;
                     break;
+		case "square":
+    			result = num1 * num1;
+    			break;
                 default:
                     Console.WriteLine("Invalid operation");
                     break;
